@@ -102,7 +102,37 @@
 	intro_text = list("<h2>You are a Corporate Security Officer!</h2>",\
 	"<span class='notice'>You are aware of the xenomorph threat.</span>",\
 	"<span class='danger'>Your primary objective is to survive the outbreak.</span>")
-	story_text = "You are a Corporate Security Officer stationed on LV-624 from Weyland-Yutani. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring supplies from both Engineering and the Marshals Offices to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenomorphs' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weyland-Yutani and to remain steadfast until rescue arrives."
+	story_text = "You are a Corporate Security Officer stationed on LV-624 from Weyland-Yutani. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring supplies from the Marshals Offices to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenomorphs' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weyland-Yutani and to remain steadfast until rescue arrives."
+
+	spawn_priority = SPAWN_PRIORITY_LOW
+
+/obj/effect/landmark/survivor_spawner/lv624_corporate_dome_goon_medic
+	equipment = /datum/equipment_preset/survivor/goon/medic
+	synth_equipment = /datum/equipment_preset/synth/survivor/wy/security_synth
+	intro_text = list("<h2>You are a Corporate Security Officer!</h2>",\
+	"<span class='notice'>You are aware of the xenomorph threat.</span>",\
+	"<span class='danger'>Your primary objective is to survive the outbreak.</span>")
+	story_text = "You are a Corporate Security Officer stationed on LV-624 from Weyland-Yutani. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring supplies from Medical to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenomorphs' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weyland-Yutani and to remain steadfast until rescue arrives."
+
+	spawn_priority = SPAWN_PRIORITY_VERY_HIGH
+
+/obj/effect/landmark/survivor_spawner/lv624_corporate_dome_goon_tech
+	equipment = /datum/equipment_preset/survivor/goon/engi
+	synth_equipment = /datum/equipment_preset/synth/survivor/wy/security_synth
+	intro_text = list("<h2>You are a Corporate Security Officer!</h2>",\
+	"<span class='notice'>You are aware of the xenomorph threat.</span>",\
+	"<span class='danger'>Your primary objective is to survive the outbreak.</span>")
+	story_text = "You are a Corporate Security Officer stationed on LV-624 from Weyland-Yutani. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring supplies from Engineering to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenomorphs' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weyland-Yutani and to remain steadfast until rescue arrives."
+
+	spawn_priority = SPAWN_PRIORITY_MEDIUM
+
+/obj/effect/landmark/survivor_spawner/lv624_corporate_dome_goon_lead
+	equipment = /datum/equipment_preset/survivor/goon/leader
+	synth_equipment = /datum/equipment_preset/synth/survivor/wy/security_synth
+	intro_text = list("<h2>You are a Corporate Security Officer!</h2>",\
+	"<span class='notice'>You are aware of the xenomorph threat.</span>",\
+	"<span class='danger'>Your primary objective is to survive the outbreak.</span>")
+	story_text = "You are a Corporate Security Officer stationed on LV-624 from Weyland-Yutani. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring a security team to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, these so called 'xenomorphs' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer and alot of the defences. The Liaison said they will soon find a way to contact Weyland-Yutani and to remain steadfast until rescue arrives."
 
 	spawn_priority = SPAWN_PRIORITY_HIGH
 
