@@ -130,7 +130,7 @@
 
 	new_human.equip_to_slot_or_del(new /obj/item/storage/pouch/survival/full(new_human), WEAR_L_STORE)
 
-	// /obj/effect/landmark/survivor_spawner/lv624_corporate_dome_goon_lead
+// /obj/effect/landmark/survivor_spawner/lv624_corporate_dome_goon_lead
 
 /datum/equipment_preset/survivor/goon/leader
 	name = "Survivor - Corporate Security Goon Leader"
