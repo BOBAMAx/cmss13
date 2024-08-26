@@ -115,7 +115,7 @@
 	"<span class='danger'>Your primary objective is to survive the outbreak.</span>")
 	story_text = "You are a Corporate Security Medical Specialist stationed on LV-624 from Weyland-Yutani. Suddenly one day you were pulled aside by the Corporate Liaison and told to bring supplies from Medical to their office, and fast. You began fortifying the Corporate Dome and was told by the Executive that something big will ravage the entire colony, excluding you. Turns out, the Liaison was right, and these so called 'xenomorphs' broke containment from the Research Dome and began destroying the entire colony. Once they came for the Dome and tried to kill all of you, you barely managed to hold them off even after losing one Officer, despite your best efforts, and a lot of the defences. The Liaison said they will soon find a way to contact Weyland-Yutani and to remain steadfast until rescue arrives."
 
-	spawn_priority = SSPAWN_PRIORITY_VERY_HIGH
+	spawn_priority = SPAWN_PRIORITY_VERY_HIGH
 
 
 /obj/effect/landmark/survivor_spawner/lv624_corporate_dome_goon_tech
