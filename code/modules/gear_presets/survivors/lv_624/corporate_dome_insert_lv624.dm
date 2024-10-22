@@ -8,6 +8,7 @@
 	skills = /datum/skills/civilian/survivor/manager
 	assignment = "LV-624 Corporate Liaison"
 	idtype = /obj/item/card/id/silver/clearance_badge/cl
+	faction = FACTION_WY
 	faction_group = FACTION_LIST_SURVIVOR_WY
 	access = list(
 		ACCESS_WY_GENERAL,
@@ -56,7 +57,9 @@
 	name = "Survivor - Corporate Security Goon Engineer"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	assignment = JOB_WY_GOON_TECH
+	rank = JOB_WY_GOON_TECH
 	paygrades = list(PAY_SHORT_CPO = JOB_PLAYTIME_TIER_0)
+	faction = FACTION_WY
 	faction_group = FACTION_LIST_SURVIVOR_WY
 	idtype = /obj/item/card/id/silver/cl
 	skills = /datum/skills/civilian/survivor/goon/engineer
@@ -94,7 +97,9 @@
 	name = "Survivor - Corporate Security Goon Medic"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	assignment = JOB_WY_GOON_MEDIC
+	rank = JOB_WY_GOON_MEDIC
 	paygrades = list(PAY_SHORT_CPO = JOB_PLAYTIME_TIER_0)
+	faction = FACTION_WY
 	faction_group = FACTION_LIST_SURVIVOR_WY
 	idtype = /obj/item/card/id/silver/cl
 	skills = /datum/skills/civilian/survivor/goon/medic
@@ -136,7 +141,10 @@
 	name = "Survivor - Corporate Security Goon Leader"
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	assignment = JOB_WY_GOON_LEAD
+	rank = JOB_WY_GOON_LEAD
 	paygrades = list(PAY_SHORT_CSPO = JOB_PLAYTIME_TIER_0)
+	role_comm_title = "SL"
+	faction = FACTION_WY
 	faction_group = FACTION_LIST_SURVIVOR_WY
 	idtype = /obj/item/card/id/silver/cl
 	skills = /datum/skills/civilian/survivor/goon/leader
