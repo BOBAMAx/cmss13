@@ -8,6 +8,8 @@
 	skills = /datum/skills/civilian/survivor/manager
 	assignment = "LV-624 Corporate Liaison"
 	idtype = /obj/item/card/id/silver/clearance_badge/cl
+	minimap_background = "background"
+	minimap_icon = "private"
 	faction = FACTION_WY
 	faction_group = FACTION_LIST_SURVIVOR_WY
 	access = list(
@@ -58,6 +60,7 @@
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	assignment = JOB_WY_GOON_TECH
 	rank = JOB_WY_GOON_TECH
+	minimap_icon = "goon_engi"
 	paygrades = list(PAY_SHORT_CPO = JOB_PLAYTIME_TIER_0)
 	faction = FACTION_WY
 	faction_group = FACTION_LIST_SURVIVOR_WY
@@ -98,6 +101,7 @@
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	assignment = JOB_WY_GOON_MEDIC
 	rank = JOB_WY_GOON_MEDIC
+	minimap_icon = "goon_medic"
 	paygrades = list(PAY_SHORT_CPO = JOB_PLAYTIME_TIER_0)
 	faction = FACTION_WY
 	faction_group = FACTION_LIST_SURVIVOR_WY
@@ -142,6 +146,7 @@
 	flags = EQUIPMENT_PRESET_START_OF_ROUND
 	assignment = JOB_WY_GOON_LEAD
 	rank = JOB_WY_GOON_LEAD
+	minimap_icon = "goon_leader"
 	paygrades = list(PAY_SHORT_CSPO = JOB_PLAYTIME_TIER_0)
 	role_comm_title = "SL"
 	faction = FACTION_WY
