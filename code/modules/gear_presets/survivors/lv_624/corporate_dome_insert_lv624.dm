@@ -8,8 +8,6 @@
 	skills = /datum/skills/civilian/survivor/manager
 	assignment = "LV-624 Corporate Liaison"
 	idtype = /obj/item/card/id/silver/clearance_badge/cl
-	minimap_background = "background"
-	minimap_icon = "private"
 	faction = FACTION_WY
 	faction_group = FACTION_LIST_SURVIVOR_WY
 	access = list(
