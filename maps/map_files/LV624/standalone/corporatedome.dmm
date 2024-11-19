@@ -1,4 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/effect/landmark/survivor_spawner/lv624_corporate_dome_goon_tech,
+/turf/open/floor/dark,
+/area/lv624/lazarus/corporate_dome)
 "aQ" = (
 /obj/structure/machinery/door/airlock/multi_tile/almayer/generic{
 	name = "\improper Corporation Dome";
@@ -822,10 +826,6 @@
 /obj/item/frame/table/wood/fancy,
 /turf/open/floor/whiteyellow/northeast,
 /area/lv624/lazarus/corporate_dome)
-"Tk" = (
-/obj/effect/landmark/survivor_spawner/lv624_corporate_dome_goon_tech,
-/turf/open/floor/dark,
-/area/lv624/lazarus/corporate_dome)
 "TF" = (
 /obj/structure/machinery/light{
 	dir = 8
@@ -1063,7 +1063,7 @@ Bh
 mw
 Bh
 Bh
-Tk
+aa
 Bh
 Bh
 qH
